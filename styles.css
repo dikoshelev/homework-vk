@@ -36,7 +36,7 @@ body {
   font-size: 30px;
   text-align: center;
   letter-spacing: 61px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .text2 {
@@ -44,7 +44,7 @@ body {
   font-family: 'GothamProMed';
   color: #333;
   font-size: 30px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 #welcome {
@@ -72,7 +72,14 @@ body {
   text-align: center;
   font-size: 20px;
   line-height: 50px;
+  border-bottom: 3px solid black;
 }
+
+.button:hover {
+  cursor: pointer;
+  /*background-color: black;*/
+}
+
 
 /*animation*/
 
@@ -107,11 +114,25 @@ body {
     margin: 0 auto;
     height: 130px;
     width: 300px;
-    border: 10px solid #ff3256;
+    border: 10px solid rgb(255, 50, 86);
     text-align: center;
     line-height: 130px;
     background: transparent;
     color: #333;
+    font-size: 60px;
 
   }
+}
+
+.button3 {
+  font-family: 'GothamProBol';
+  margin: 0 auto;
+  height: 130px;
+  width: 300px;
+  border: 10px solid #ff3256;
+  text-align: center;
+  line-height: 130px;
+  background: transparent;
+  color: #333;
+  font-size: 60px;
 }
